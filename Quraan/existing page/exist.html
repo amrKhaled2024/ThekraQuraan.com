@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quraan</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="logo center">
+            <a href="Main_Pgae.html" id="home-link">
+                <img src="/existing page/quraan-light.png" alt="logo" id="logo-img">
+            </a>
+        </div>
+        <ul>
+            <li>القران الكريم</li>
+            <li>القراء</li>
+            <li>
+                <div class="switch">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside>
+            <ul id="sorah_aside" class="center"></ul>
+        </aside>
+        <section>
+            <div class="overlayed_text">
+                <p class="sorah_top_Hizb center"></p>
+                <h1 class="sorah_top_Name center"></h1>
+                <p class="sorah_top_Number center"></p>
+            </div>
+            <div class="top_img">
+                <img src="Surah_Header.jpg" alt="Surah_Header">
+            </div>
+            <div class="basmalah center">
+                <p id="basmalah">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>
+            </div>
+            <div class="ayat_container center">
+                <p id="ayat"></p>
+            </div>
+        </section>
+    </div>
+    <script src="./quraan.js"></script>
+</body>
+</html>
