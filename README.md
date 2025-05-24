@@ -1,5 +1,5 @@
 # Thekra - Quran Website
-
+![ThekraWebsite](Logo.png)
 Thekra is a simple and elegant Quran website that allows users to browse and read the Quranic Surahs with ease. It features a responsive design, dark/light theme switch, and displays the verses with proper numbering in Arabic.
 
 ## Features
